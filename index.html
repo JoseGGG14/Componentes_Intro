@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="vue.js"></script>
+        <title>Vue.js</title>
+    </head>
+    <body>
+        <header class="bg-success text-center text-white">
+            <span class="h2">Componentes Intro</span>
+        </header>
+        <main>
+            <!--ul>
+                <li v-for="tarea in tareasAjax" v-text="tarea.title"></li>
+            </ul-->
+
+            <!--<h1>Tareas Ajax</h1>
+            <mis-tareas :tareas="tareasAjax"></mis-tareas>
+
+            <hr>
+            <h1>Tareas Locales</h1>
+            <mis-tareas :tareas="tareasLocales"></mis-tareas>--> 
+
+            <h1>Las Tareas</h1>
+            <mis-tareas></mis-tareas>
+
+            <pre>{{$data}}</pre>
+        </main>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="script.js"></script>
+
+        <footer class="bg-dark text-center text-white">
+            <span class="h2">Por: José Guadalupe</span>
+        </footer>
+    </body>
+</html>
